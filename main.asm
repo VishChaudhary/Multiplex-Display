@@ -16,9 +16,9 @@ digit_num: .byte 1
 .cseg
 
 setup:
-ldi r16, 0xFF	//load r16 with all 1s
+ldi r16, 0xFF	;load r16 with all 1s
 sts PORTD_DIR, r16    //Set vportd as outputs
-sts PORTA_DIR, r16		//set vporta as output
+sts PORTA_DIR, r16		;set vporta as output
 ldi r16, 0x00		//load r16 with all 0s
 sts PORTC_DIR, r16    //set vportc as inputs
 
