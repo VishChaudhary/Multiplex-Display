@@ -2,7 +2,7 @@
 ; multiplex_display.asm
 ;
 ; Created: 11/3/2021 11:13:30 AM
-; Author : hongz
+; Author : vish75000
 ;
 
 
